@@ -73,6 +73,9 @@ header {
     .code-container {
         width: 85%;
     }
+    .code-header {
+        font-size: 23px;
+    }
 }
 
 .code-screen {
