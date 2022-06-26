@@ -69,6 +69,11 @@ header {
     }
 }
 
+@media screen and (max-width: 425px){
+    .code-container {
+        width: 85%;
+    }
+}
 
 .code-screen {
     background: url("../images/wood.jpg") rgb(192, 79, 0);
