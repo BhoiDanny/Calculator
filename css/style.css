@@ -1,0 +1,181 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    background: url("../images/polished-wood.jpg") rgb(111, 33, 38);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 100%;
+    color: white;
+}
+
+header {
+    background: rgb(17, 17, 17);
+    text-align: center;
+}
+
+.code-header {
+    font-weight: 300;
+    letter-spacing: 1.9px;
+    margin: 0;
+    padding: 10px;
+}
+
+.code-tag {
+    margin: -20px 0 0;
+    letter-spacing: 1.92px;
+    word-spacing: 1.92px;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.code-container {
+    width: 26.4%;
+    margin: 25px auto 0;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .code-container {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .code-container {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .code-container {
+        width: 45%;
+    }
+}
+
+
+.code-screen {
+    background: url("../images/wood.jpg") rgb(192, 79, 0);
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+.code-main-screen {
+    background-color: rgb(53, 53, 53);
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: right;
+    box-shadow: inset 1px 1px 11px -3px rgb(17, 17, 17);
+
+}
+.code-main-screen::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+
+.code-buttons {
+    background-color:rgb(17, 17, 17);
+    padding: 5px 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.code-button {
+    background-color:rgb(53, 53, 53);
+    color: white;
+    /* padding-top: 10px; */
+    height: 60px;
+    width: 60px;
+    border: none;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.code-button:last-child {
+    background-color: rgba(255, 123, 0, 0.993) !important;
+    color: white !important;
+    font-size: 23px;
+}
+
+.code-button:last-child:hover {
+    opacity: .8;
+}
+
+.code-button:last-child:active {
+    background-color: rgba(255, 255, 255, 0.911) !important;
+    color: rgba(255, 123, 0, 0.993) !important;
+}
+
+.code-row:first-child {
+    margin: 10px 7px 7px;
+}
+
+.code-row:first-child .code-button {
+    background-color: rgba(233, 233, 233, 0.911);
+    color: black;
+    font-weight: 700;
+}
+
+.code-row:first-child .code-button:hover {
+    opacity: .89;
+}
+
+.code-row:first-child .code-button:active {
+    background-color: rgb(247, 242, 242)
+}
+
+.code-button:hover {
+    opacity: 0.89;
+}
+
+.code-button:active {
+    background-color: rgb(112, 111, 111) ;
+}
+
+.code-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2px 15px 7px;
+}
+
+.code-double {
+    width: 49.7%;
+    border-radius: 40px;
+}
+
+.code-fix {
+    padding-top: 18px;
+    font-size: 27px !important;
+}
+
+.code-foot {
+    width: 100%;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(17, 17, 17);
+    font-weight: 500;
+    letter-spacing: 1.98px;
+}
